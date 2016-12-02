@@ -1,0 +1,129 @@
+<!Doctype html>
+
+<html lang="de">
+
+    
+<!-- Mirrored from zapf.uni-konstanz.de/anmeldung by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Dec 2016 23:00:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8"/>
+        
+        <title>ZaPF - Sommer 2016</title>
+
+        <link rel="stylesheet" href="style/normalize.css" type="text/css" />
+        <link rel="stylesheet" href="style/fonts.css" type="text/css" />
+        <link rel="stylesheet" href="style/layout.css" type="text/css" />
+        <link rel="stylesheet" href="azas/all.css" type="text/css" />
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+                <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <nav>
+            <div>
+                <ul>
+                    <li>
+                        <a href="index.html">Willkommen</a>
+                    </li>
+                    <li>
+                        <a href="tagung/programm.html">Tagung</a>
+                    </li>
+                    <li>
+                        <a href="unterstuetzer/Sponsoren.html">Unterstützer</a>
+                    </li>
+                    <li>
+                        <a href="anmeldung.html">Anmeldung</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+                    <h2><img alt="ZaPF am See 2016" src="style/banner.png" /></h2>
+        
+        <div id="left">
+  <nav>
+    <h3>Willkommen</h3>
+    <ul>
+      <li><a href="willkommen/willkommen.html">Startseite</a></li>
+      <li><a href="willkommen/wasistdiezapf.html">Über die ZaPF</a></li>
+      <li><a href="video.html">Zäpfchen-Film</a></li>
+      <li><a href="willkommen/wersindwir.html">Über uns</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <h3>t<sub>ZaPF</sub> - t</h3>
+    <p style="padding: 0 0 0 25px;"><span id="timecounter">...</span> s</p>
+    <script type="application/javascript">
+      // <![CDATA[
+      zapftime = new Date(Date.parse("2016-05-04T17:00:00+02:00"))
+      window.setInterval(function(){
+        document.getElementById("timecounter").innerHTML = Math.floor((zapftime - new Date().getTime())*0.001).toExponential();
+      },1000);
+      // ]]>
+    </script>
+  </aside>
+  <aside>
+    <h3>Sitzung</h3>
+    <p>
+    Die ZaPF-Sitzung findet aktuell jeden Montag statt. Treffpunkt ist 17 Uhr im FS Raum P626. 
+    </p>
+  </aside>
+  <aside>
+    <h3>Kontakt</h3>
+    <ul>
+        <li><a href="mailto:orga@zapf.uni-konstanz.de">Email</a></li>
+        <li><a href="mailto:helfer-orga@zapf.uni-konstanz.de">Email an Helferorga</a></li>
+        <li><a href="impressum.html">Postanschrift</a></li>
+    </ul>
+  </aside>
+</div>
+
+        <div id="main">
+                                        <!-- START embedded azas html -->
+            
+            <!-- Load libraries -->
+            
+            <!-- IE required polyfills, in this exact order -->
+            <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+            <script src="node_modules/systemjs/dist/system-polyfills.js"></script>
+
+            <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+            <script src="node_modules/systemjs/dist/system.src.js"></script>
+            <script src="node_modules/rxjs/bundles/Rx.js"></script>
+            <script src="node_modules/angular2/bundles/angular2.js"></script>
+            <script src="node_modules/angular2/bundles/http.js"></script>
+            <!-- Load azas -->
+            <script>
+                // <[CDATA[
+                System.config({ packages: { azas: {
+                            format: 'register',
+                            defaultExtension: 'js'
+                }}});
+                System.import('azas/bootstrap').then(null, console.error.bind(console));
+                // ]]>
+            </script>
+
+            <div class="azasmain"></div>
+
+            <!-- END embedded azas html -->
+ 
+                    </div>
+
+        <footer>
+            <p>
+                <a href="impressum.html">Impressum</a>
+            </p>
+        </footer>
+
+    </body>
+
+
+<!-- Mirrored from zapf.uni-konstanz.de/anmeldung by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 02 Dec 2016 23:00:16 GMT -->
+</html>

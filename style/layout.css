@@ -1,0 +1,259 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+body {
+    margin: 35px auto 0;
+    padding: 0;
+    width: 1000px;
+    font-size: 12pt;
+    border: solid black;
+    border-width: 0px 1px 1px 1px;
+    background-color: white;
+    box-shadow: 0 0 10px #555;
+}
+
+a.extern {
+    padding-right: 18px;
+    background: url(link_extern.png) no-repeat right center;
+}
+
+
+body > nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    font-size: 13pt;
+    border-bottom: solid grey 1px;
+    z-index: 110;
+    background-color: #1a1a1a;
+    box-shadow: 0 0 10px #555;
+    text-align: center;
+}
+
+body > nav a:hover {
+    text-decoration: none;
+    color:#137390;
+}
+
+body > nav > div {
+    display: inline-block;
+    margin: 0 auto;
+    color: white;
+}
+
+body > nav > div > ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+    height: 35px;
+    border-collapse: collapse;
+}
+
+body > nav > div > ul > li {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    border-right: solid white 1px;
+    border-left: solid white 1px;
+}
+
+body > nav > div > ul > li > a {
+    color: white;    
+}
+
+body > nav > div a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+body > h2, 
+body > h1 {
+    padding: 0 0 10px;
+    margin: 0 0 20px;
+    height: 200px;
+}
+
+body > h2 img,
+body > h1 img {
+    200px;  
+}
+
+
+#sponsoren a {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+
+
+
+#left {
+    float: left;
+    width: 175px;
+    padding: 0 25px;
+}
+
+#left > aside,
+#left > nav
+{
+    margin-bottom: 30px;
+}
+
+#left > aside > h3,
+#left > nav > h3 
+{
+    height: 26px;
+    font-size: 14pt;
+    border-bottom: solid 1px #137390;
+    color: #137390;
+    margin: 2px 0 10px;    
+    font-weight: normal;
+}
+
+#left > aside p
+{
+    margin: 8px 0;
+    text-align: justify;
+}
+
+#left > aside > ul,
+#left > nav > ul 
+{
+    padding: 0 0 0 25px;
+    list-style-image: url('list_element.png');
+    
+}
+
+#left > aside > ul > li,
+#left > nav > ul > li 
+{
+    margin-bottom: 2px;
+}
+
+#left > aside > ul > li > a,
+#left > nav > ul > li > a 
+{
+    color:  #137390;
+}
+
+#left > aside > ul > li > a:hover
+#left > nav > ul > li > a:hover 
+{
+    text-decoration: none;
+}
+
+#main {
+    float: left;
+    width: 700px;
+    padding: 0 25px; 
+    text-align: justify;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+#main h1,
+#main article > h2 {
+    height: 28px;
+    margin: 15pt 0 10px;
+    padding-left: 50px;
+    border-bottom: solid 1px #137390;
+    color: #137390;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#main h1:first-child,
+#main article:first-child > h2 {
+    margin-top: 0;
+}
+
+#main h2 {
+    height: 26px;
+    margin: 15pt 0 10px;
+    margin-left: 50px;
+    border-bottom: solid 1px #137390;
+    color: #137390;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#main h3 {
+    color: #137390;
+    font-size: 13pt;
+    font-weight: bold;
+    padding-left: 50px;
+    margin: 13pt 0px 0px 0px;
+}
+
+#main p {
+    padding-left: 50px;
+    margin: 8pt 0px 0px 0px;
+}
+
+#main p img {
+    display: block;
+    margin: 0 auto;
+    max-width: 650px;
+}
+
+#main p img.left {
+    float: left;
+    margin: 4pt 12pt 8pt 0;
+    max-width: 300px;
+}
+
+#main p img.right {
+    float: right;
+    margin: 4pt 0 8pt 12pt;
+    max-width: 300px;
+}
+
+#main ul {
+    padding-left: 67px;
+    margin: 8pt 0px 0px 0px;
+}
+
+#main table {
+    margin: 8pt 0 0 50px;
+    border-collapse: collapse;
+}
+
+/* #main table tr:nth-child(2n) {
+    background: #eee;
+} */
+
+#main table td, #main table th {
+    padding: 2px 7px;
+    border: 1px solid #ccc;
+    text-align: left;
+    vertical-align: baseline;
+}
+
+#main table th {
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+body > footer {
+    padding-top:13pt;
+    clear: both;
+}
+
+body > footer > p {
+    text-align: center;
+    color: #137390;
+}
